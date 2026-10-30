@@ -1,0 +1,72 @@
+# Dependencies
+**/node_modules/
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+dist/
+build/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+*.exe
+bin/
+tmp/
+coverage.out
+*.dump
+*.backup
+backups/
+__pycache__/
+.local/
+frontend/playwright-report/
+frontend/test-results/
+
+# Render
+render.yaml.backup
+
+# Docs generated
+docs/build/
+docs/dist/
+
+# Variables privadas
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+coverage/
+
+# Backend
+backend/app
+backend/bin/
+*.exe
+*.test
+*.out
+
+# Herramientas
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+
+# Respaldos de base de datos
+*.dump
+*.backup
+*.sql.gz
